@@ -1,0 +1,29 @@
+#h1 {
+    font-size: 30px;
+    color: blue;
+}
+
+#h2 {
+    font-size: 25px;
+    align-items: left;
+}
+
+#h3 {
+    font-size: 25px;
+}
+
+#h4 {
+    font-size: 25px;
+}
+
+.tr {
+    border-color: black;
+}
+
+#h5 {
+    align-items: left;
+}
+
+#button {
+    background-color: aquamarines;
+}

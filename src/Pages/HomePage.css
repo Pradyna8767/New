@@ -1,0 +1,38 @@
+#h1 {
+    font-size: 35px;
+    align-items: center;
+}
+
+#h2{
+    text-align: center;
+}
+
+#button {
+    background-color: wheat;
+
+}
+
+#h3 {
+    font-size: 20px;
+    text-align: left;
+}
+
+#div {
+    background-image: url(Image/DFGDFGFHHFGSFGSFGS.webp);
+
+}
+#h4 {
+    font-size: 20px;
+    text-align: left;
+
+}
+
+#explore {
+    background-color: blueviolet;
+}
+
+#img {
+    height: 300px ;
+    width: 400px;
+}
+

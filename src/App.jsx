@@ -1,0 +1,29 @@
+import React from "react";
+import './App.css'
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import Headers from "./Components/Headers/Headers";
+import HomePage from "./pages/HomePage";
+import AboutPage from "./pages/AboutPage";
+import CoursesPage from "./pages/CoursesPage";
+import ContactPage from "./pages/ContactPage";
+import NotFoundPage from "./pages/NotFoundPage";
+import AdmissionPage from './Pages/AdmissionPage';
+
+
+const App = () => {
+  return (
+    <Router>
+          <Headers />
+          <Routes>
+            <Route path="/homepage" element={<HomePage />} />
+            <Route path="/aboutpage" element={<AboutPage />} />
+            <Route path="/coursespage" element={<CoursesPage />} />
+            <Route path="/contactpage" element={<ContactPage />} />
+            <Route path="/admissionpage" element={ <AdmissionPage/>}/>
+            <Route path="*" element={<NotFoundPage />} />
+          </Routes>
+        </Router>
+  )
+}
+
+export default App 
