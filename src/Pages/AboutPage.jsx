@@ -10,7 +10,7 @@ const AboutPage = () => {
             <p>Our vision is to empower students with critical thinking skills a global prespective and a strong sence </p>
             
             <h2 id="head2">Our Mission</h2>
-            <hr />
+            <br />
             <li>
               <ol>To provide high-quality, accessible education across various disciplines.</ol>
               <ol>To foster research, innovation, and creativity among students and faculty.</ol>
