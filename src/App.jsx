@@ -2,12 +2,12 @@ import React from "react";
 import './App.css'
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Headers from "./Components/Headers/Headers";
-import HomePage from "./pages/HomePage";
 import AboutPage from "./pages/AboutPage";
 import CoursesPage from "./pages/CoursesPage";
 import ContactPage from "./pages/ContactPage";
 import NotFoundPage from "./pages/NotFoundPage";
 import AdmissionPage from './pages/AdmissionPage';
+import HomePage from './pages/HomePage';
 
 
 const App = () => {
