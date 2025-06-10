@@ -7,7 +7,7 @@ import AboutPage from "./pages/AboutPage";
 import CoursesPage from "./pages/CoursesPage";
 import ContactPage from "./pages/ContactPage";
 import NotFoundPage from "./pages/NotFoundPage";
-import AdmissionPage from './Pages/AdmissionPage';
+import AdmissionPage from './pages/AdmissionPage';
 
 
 const App = () => {
