@@ -1,9 +1,11 @@
-import React from "react";ontactPage.jsx
+
+import Headers from '../Components/Headers/Headers';
 import './HomePage.css'
 
 const HomePage = () => {
     return (
         <div>
+            <Headers />
             <div id="div">
                 <h2 id="h1">Welcome to Vivekanand College</h2>
                 <h1 id="h2">Your journey to excellence starts here. </h1>

@@ -1,9 +1,11 @@
 import React from "react";
 import './ContactPage.css'
+import Headers from "../Components/Headers/Headers";
 
 const ContactPage = () => {
     return (
         <div>
+            <Headers />
             <h2 id="h1">Contact Us</h2>
             <p>We'd love to hear from you! Whether you have questions about admissions, programs, or campus life, our team is here to help.</p>
 

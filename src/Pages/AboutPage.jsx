@@ -1,9 +1,11 @@
 import React from "react";
 import './AboutPage.css'
+import Headers from "../Components/Headers/Headers";
 
 const AboutPage = () => {
     return (
         <div>
+            <Headers />
             <h2 id="head1">About Vivekanand college</h2>
             <p>Vivekanand College stands as a beacon of knowledge and intrigity committed to delivering transformative education since its ensiption in [ year of estalibshment eg. 1980 ]. Located in the bustling heart of [ City / Area eg. Chembur, Mumbai ] our college has cnsistantly strived to upholh the highest standareds of academic rigor and ethical vuales.  </p>
             
@@ -11,12 +13,12 @@ const AboutPage = () => {
             
             <h2 id="head2">Our Mission</h2>
             <br />
-            <li>
-              <ol>To provide high-quality, accessible education across various disciplines.</ol>
-              <ol>To foster research, innovation, and creativity among students and faculty.</ol>
-              <ol>To cultivate a diverse and inclusive learning environment.</ol>
-              <ol>To instill strong ethical values and leadership qualities.</ol>
-            </li>
+            <ol>
+              <li>To provide high-quality, accessible education across various disciplines.</li>
+              <li>To foster research, innovation, and creativity among students and faculty.</li>
+              <li>To cultivate a diverse and inclusive learning environment.</li>
+              <li>To instill strong ethical values and leadership qualities.</li>
+            </ol>
 
             <h2 id="head3">Our Values</h2>
             <hr />
