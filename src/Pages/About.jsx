@@ -2,7 +2,7 @@ import React from "react";
 import './AboutPage.css'
 import Headers from "../Components/Headers/Headers";
 
-const AboutPage = () => {
+const About = () => {
     return (
         <div>
             <Headers />
@@ -31,6 +31,6 @@ const AboutPage = () => {
     );
 };
 
-export default AboutPage;
+export default About;
  
  

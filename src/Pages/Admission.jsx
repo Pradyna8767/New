@@ -3,7 +3,7 @@ import React from 'react';
 import './AdmissionPage.css'
 import Headers from '../Components/Headers/Headers';
 
-const AdmissionPage = () => {
+const Admission = () => {
     return (
       <div>
         <Headers />
@@ -30,6 +30,6 @@ const AdmissionPage = () => {
     );
 };
 
-export default AdmissionPage;
+export default Admission;
 
  

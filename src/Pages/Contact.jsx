@@ -2,7 +2,7 @@ import React from "react";
 import './ContactPage.css'
 import Headers from "../Components/Headers/Headers";
 
-const ContactPage = () => {
+const Contact = () => {
     return (
         <div>
             <Headers />
@@ -32,7 +32,7 @@ const ContactPage = () => {
     );
 };
 
-export default ContactPage;
+export default Contact;
 
 
 

@@ -2,7 +2,7 @@ import React from 'react';
 import './CoursesPage.css'
 import Headers from '../Components/Headers/Headers';
 
-const CoursesPage = () => {
+const Courses = () => {
     return (
         <div>
           <Headers />
@@ -59,7 +59,7 @@ const CoursesPage = () => {
     );
 };
 
-export default CoursesPage;
+export default Courses;
 
 
 
