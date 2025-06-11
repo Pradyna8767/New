@@ -1,4 +1,4 @@
-import React from "react";
+import React from 'react';
 import './CoursesPage.css'
 
 const CoursesPage = () => {
@@ -49,7 +49,7 @@ const CoursesPage = () => {
             
           <table id="table">
             <tr className="tr">
-              <td>Program Type</td> <td>Course Name</td> <td>Duration</td> <td>Annual Fee (INR)</td> <td>	Eligibility</td>
+              <td>Program Type</td> <td>Course Name</td> <td>Duration</td> <td>Annual Fee (INR)</td> <td> Eligibility</td>
             </tr>
             
             <tr className="tr">
@@ -57,7 +57,7 @@ const CoursesPage = () => {
             </tr>
             
             <tr className="tr">
-              <td>UG</td> <td>B.Com. Accounting & Finance</td> <td>	3 Years</td> <td>	₹ 70,000</td> <td>10+2 Commerce (45%)</td>
+              <td>UG</td> <td>B.Com. Accounting & Finance</td> <td> 3 Years</td> <td> ₹ 70,000</td> <td>10+2 Commerce (45%)</td>
             </tr>
             
             <tr className="tr">
@@ -75,3 +75,8 @@ const CoursesPage = () => {
 };
 
 export default CoursesPage;
+
+
+
+
+

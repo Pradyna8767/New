@@ -1,3 +1,4 @@
+
 import React from 'react';
 import './AdmissionPage.css'
 
@@ -16,7 +17,7 @@ const AdmissionPage = () => {
           </tr>
 
           <tr id='tr'>
-            <td>B.Sc. Computer Science</td> <td>10+2 (or equivalent)</td> <td>	Physics, Chemistry, Maths</td> <td>50%</td>
+            <td>B.Sc. Computer Science</td> <td>10+2 (or equivalent)</td> <td>  Physics, Chemistry, Maths</td> <td>50%</td>
           </tr>
 
           <tr id='tr'>
@@ -24,7 +25,7 @@ const AdmissionPage = () => {
           </tr>
 
           <tr id='tr'>
-            <td>B.A. English Literature</td> <td>10+2 (or equivalent)</td> <td>	Any Stream</td> <td>40%</td>
+            <td>B.A. English Literature</td> <td>10+2 (or equivalent)</td> <td> Any Stream</td> <td>40%</td>
           </tr>
         </table>
 
@@ -44,3 +45,5 @@ const AdmissionPage = () => {
 };
 
 export default AdmissionPage;
+
+ 
