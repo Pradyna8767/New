@@ -2,14 +2,14 @@
 import Headers from '../Components/Headers/Headers';
 import './HomePage.css'
 
-const HomePage = () => {
+const Home = () => {
     return (
         <div>
             <Headers />
             <div id="div">
                 <h2 id="h1">Welcome to Vivekanand College</h2>
                 <h1 id="h2">Your journey to excellence starts here. </h1>
-                <button type="button" id="button"><a href="AdmissionPage.jsx">Apply Now</a></button>
+                <button type="button" id="button"><a href="/admissionpage">Apply Now</a></button>
             </div>
 
             <p className="para2"> ** vivekanand College ** is a premier educational institution dedicated to fostering academic execellance, innovation and holistic development. Established in [ year of Establishment eg. 1980 ] we have proudly served generations of students, empowering them to achieve their full potentional.</p>
@@ -24,8 +24,8 @@ const HomePage = () => {
             <p className="para"><span className="arrow"></span> **Strong Placement** Execullent carrer oppourtunities with laeding compnies.</p>
             <h2 id="h4">Campus Life and Facilities</h2> 
 
-            <img id="img" src="/Image/campus-life-Crkero7B.jpg" alt="" />
-            <img id="img" src="/Image/students-studying-DbLGuwF_.jpeg" alt="" />
+            <img id="img" src="/Image/one.jpeg" />
+            <img id="img" src="/Image/two.jpeg"  />
 
             <p>Explore our vibrant campus and state-of-the-art facilities designed to enhance your learning experience and personal growth.</p>
             <p>Ready to Explore our courses?</p>
@@ -36,5 +36,5 @@ const HomePage = () => {
     );
 };
 
-export default HomePage;
+export default Home;
 

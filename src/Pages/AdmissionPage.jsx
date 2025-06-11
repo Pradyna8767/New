@@ -13,23 +13,7 @@ const AdmissionPage = () => {
 
         <h2 id='h2'>Eligibility Criteria for Undergraduate Programs</h2><hr/><br />
 
-        <table>
-          <tr id='tr'>
-            <td>Program</td> <td>Minimum Qualification</td> <td>Required Subjects</td> <td>Minimum Marks (%)</td>
-          </tr>
-
-          <tr id='tr'>
-            <td>B.Sc. Computer Science</td> <td>10+2 (or equivalent)</td> <td>  Physics, Chemistry, Maths</td> <td>50%</td>
-          </tr>
-
-          <tr id='tr'>
-            <td>B.Com. Accounting & Finance</td> <td>10+2 (or equivalent)</td> <td>Commerce Stream</td> <td>45%</td>
-          </tr>
-
-          <tr id='tr'>
-            <td>B.A. English Literature</td> <td>10+2 (or equivalent)</td> <td> Any Stream</td> <td>40%</td>
-          </tr>
-        </table>
+     
 
         <h2>Application Process</h2><hr /><br />
         <ol>
@@ -40,7 +24,7 @@ const AdmissionPage = () => {
           <li><b>Fee Payment:</b> Complete the admission by paying the required fees.</li>
         </ol>
 
-        <p>For detailed information on postgraduate program admissions, specific program syllabi, and fee structures, please visit our <a href="/CoursesPage">Courses page</a> or <a href="/ContactPage">Contact us</a> directly.</p>
+        <p>For detailed information on postgraduate program admissions, specific program syllabi, and fee structures, please visit our <a href="/coursespage">Courses page</a> or <a href="/contactpage">Contact us</a> directly.</p>
 
       </div>
     );
